@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>MarkAI - Simple Marketing Landing Page</title>
+    <meta charset="UTF-8">
+    <title>MarkAI - Simple Marketing Landing Page</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7CS04H9ZLY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-7CS04H9ZLY');
+    </script>
 </head>
 <body style="margin:0; padding:0; background-color:#ffffff;">
    
 <header style="padding: 20px; border-bottom: 1px solid #cccccc; font-family: Arial;">
-<span style="font-size: 22px; font-weight: bold; color: #2563eb;"> MarkAI.</span>
-
-<a href="#" style="float: right; text-decoration: none; color: #333333; font-weight: bold; margin-top: 5px;">Login</a> 
+    <span style="font-size: 22px; font-weight: bold; color: #2563eb;"> MarkAI.</span>
+    <a href="#" style="float: right; text-decoration: none; color: #333333; font-weight: bold; margin-top: 5px;">Login</a> 
 </header>
 
 <center>
 <section style="background-color:#f4f6f9; padding: 60px 20px; border-bottom: 2px solid #e2e8f0;">
 
-<h1 style="color: #111111; font-family: Arial; font-size: 32px;">
-    Automate Your Brand's Copywriting With AI
-</h1>
+    <h1 style="color: #111111; font-family: Arial; font-size: 32px;">
+        Automate Your Brand's Copywriting With AI
+    </h1>
 
-<p style="color: #555555; font-family: Arial; font-size: 16px; max-width: 500px;">
-    Create high-converting ad copy, emails, and social media posts in seconds. Built for digital marketers who want fast results.
-</p>
+    <p style="color: #555555; font-family: Arial; font-size: 16px; max-width: 500px;">
+        Create high-converting ad copy, emails, and social media posts in seconds. Built for digital marketers who want fast results.
+    </p>
  
-<br>
+    <br>
      
-<a href="#" onclick="alert('Google Analytics Logged: generate_lead (location: hero_cta)');" style="background-color: #2563eb; color: white; padding: 12px 24px; text-decoration: none; font-family: Arial; font-weight: bold; border-radius: 5px; display: inline-block;">
-    Get Started Free
-</a>
+    <a href="#" onclick="gtag('event', 'generate_lead', {'location': 'hero_cta'}); alert('Google Analytics Logged: generate_lead (location: hero_cta)');" style="background-color: #2563eb; color: white; padding: 12px 24px; text-decoration: none; font-family: Arial; font-weight: bold; border-radius: 5px; display: inline-block;">
+        Get Started Free
+    </a>
         
 </section>
 </center>
